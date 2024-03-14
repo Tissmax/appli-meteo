@@ -41,7 +41,7 @@ async function fetchMeteo(ville) {
       titre.textContent = `Weather in ${ville}` ;
 
       let temperature = document.getElementById("temperature");
-      temperature.textContent = temp.toFixed(0) + "°";
+      temperature.textContent = temp.toFixed(0) + "°C";
     
       let lastUpdate = document.getElementById("lastUpdate");
       lastUpdate.textContent = `Updated ${update}`;

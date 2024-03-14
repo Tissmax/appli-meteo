@@ -4,7 +4,9 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #elem {
-    display: flex column;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
     width: 30%;
     height: 500px;
     padding: 2%;
@@ -13,14 +15,17 @@ body{
     border-radius: 5%;
 }
 img {
-    position: absolute;
-    width: 8%;
-    top: 33%;
-    left: 43%;
+    width: 80%;
+}
+h1 {
+    grid-column: 1/3;
 }
 #lastUpdate {
     text-align: right;
-    padding-top: 23%;
+    grid-row: 4;
+    grid-column: 1/3;
+    font-size: 16px;
+    padding-top: 20%;
 }
 
 #humidity {
@@ -28,7 +33,7 @@ img {
 }
 
 h2 {
-    text-align: left;
+    grid-row: 2;
     padding-top: 10%;
     font-size: 70px;
     margin: 0;
