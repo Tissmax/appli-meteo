@@ -1,0 +1,39 @@
+body{
+    margin-top: 10%;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#elem {
+    display: flex column;
+    width: 30%;
+    height: 500px;
+    padding: 2%;
+    margin: auto;
+    background-color: rgb(175, 175, 175);
+    border-radius: 5%;
+}
+img {
+    position: absolute;
+    width: 8%;
+    top: 33%;
+    left: 43%;
+}
+#lastUpdate {
+    text-align: right;
+    padding-top: 23%;
+}
+
+#humidity {
+    padding-top: 10%;
+}
+
+h2 {
+    text-align: left;
+    padding-top: 10%;
+    font-size: 70px;
+    margin: 0;
+}
+
+p {
+    font-size: 25px;
+}
